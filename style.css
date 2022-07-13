@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Grecorian';
+    src: url('Greconian.ttf') 
+    format('Truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 47px;
+}
+
+.text{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 85px;
+}
+
+.mensege{
+    font-size: 35px;
+}
+
+.key{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.inputkey{
+    font-size: 30px;
+    width: 90px;
+}
+
+.encrypt{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#input{
+    width: 500px;
+    height: 400px;
+    font-size: 30px;
+    border: 0 none;
+    outline: 0;
+    background: none;
+    margin: 15px 15px 15px 15px;
+}
+
+.encrypttextleft{
+    background-color: #FFD400;
+    border-radius: 15px 0 0 15px;
+    
+}
+
+.encrypttextright{
+    background-color: #BA4028;
+    border-radius: 0 15px 15px 0;
+    width: 500px;
+    height: 450px;
+    font-size: 30px;
+    
+}
+
+.btn-encrypt{
+    margin-left: 70%;
+    margin-top: 25px;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
